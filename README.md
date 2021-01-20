@@ -1,2 +1,23 @@
-# MyOS
-操作系统：从加电自检到内核引导
+# OS：从加电自检到内核引导
+
+## 0x00 参考资料及环境搭建:
+
+[如何从零开始写一个简单的操作系统？](https://www.bilibili.com/video/BV19f4y1Y7Kq)  
+
+《Orange S:一个操作系统的实现》
+
+创建虚拟磁盘 : 1.进入命令行 输入diskpart   2.create vdisk file=d:\dingst.vhd maximum=10
+
+对应代码：hello.asm
+
+![image-20210119213655010](http://cdn.jev0n.com//image-20210119213655010.png)
+
+## 0x01 验证性实验
+
+在实模式下使用汇编显示文字  
+
+对应代码：disp.asm
+
+![image-20210120110842236](http://cdn.jev0n.com//image-20210120110842236.png)
+
+![image-20210120111702250](http://cdn.jev0n.com//image-20210120111702250.png)

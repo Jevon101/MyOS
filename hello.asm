@@ -1,4 +1,5 @@
-;MBR  nasm.exe hello.asm -o boot.bin
+;MBR  
+;nasm.exe hello.asm -o boot.bin
 ;dd.exe if=boot.bin of=dingst.vhd bs=512 count=1
 ;With VirtualBox
 org 07c00h
