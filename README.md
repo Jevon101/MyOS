@@ -21,3 +21,11 @@
 ![image-20210120110842236](http://cdn.jev0n.com//image-20210120110842236.png)
 
 ![image-20210120111702250](http://cdn.jev0n.com//image-20210120111702250.png)
+
+## 0x02 实模式下磁盘的内容读取
+
+对应代码：mbr.asm   loader.asm
+
+参考资料：[CHS和LBA逻辑块地址](https://blog.csdn.net/jadeshu/article/details/89072512)
+
+![image-20210123180755831](http://cdn.jev0n.com//image-20210123180755831.png)![image-20210123183226440](http://cdn.jev0n.com//image-20210123183226440.png)
