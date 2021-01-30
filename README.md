@@ -30,10 +30,25 @@
 
 ![image-20210123180755831](http://cdn.jev0n.com//image-20210123180755831.png)![image-20210123183226440](http://cdn.jev0n.com//image-20210123183226440.png)
 
-## 0x03 保护模式
+## 0x03 初探保护模式
 
 对应代码：p1.asm
+
+参考资料：[段描述符与段选择子](https://blog.csdn.net/qq_35733751/article/details/91331552)
 
 段描述符：![image-20210126195122255](http://cdn.jev0n.com//image-20210126195122255.png)
 
 逻辑地址 -> 线性地址(平坦模式) -> 物理地址![image-20210126202106873](http://cdn.jev0n.com//image-20210126202106873.png)
+
+进入保护模式：  
+1.准备GDT  
+2.用LGDT命令加载GDT  
+3.打开A20  
+4.打开cr0寄存器  
+5.jmp跳入保护模式  
+
+## 0x04 保护模式实验
+
+对应代码：pm.asm
+
+![image-20210130123333584](http://cdn.jev0n.com//image-20210130123333584.png)
